@@ -55,7 +55,7 @@ def total_gross(source)
      director_name << source[i][:name]
      i += 1
    end
-
+puts director_name
    total = 0
    count = 0
    while count < director_name.length do
