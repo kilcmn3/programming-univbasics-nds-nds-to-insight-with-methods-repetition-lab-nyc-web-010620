@@ -56,14 +56,14 @@ def total_gross(source)
      i += 1
    end
 puts director_name
-   total = 0
-   count = 0
-   while count < director_name.length do
-     if result_director_totals.keys == director_name
-          total += result_director_totals.key(director_name[count])
-          count += 1
-       end
-      puts total
-end
-total
+#    total = 0
+#    count = 0
+#    while count < director_name.length do
+#      if result_director_totals.keys == director_name
+#           total += result_director_totals.key(director_name[count])
+#           count += 1
+#        end
+#       puts total
+# end
+# total
 end
